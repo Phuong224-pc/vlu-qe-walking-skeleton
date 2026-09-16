@@ -1,4 +1,4 @@
-const login = require('./auth');
+const login = require('./login');
 
 test('Dang nhap thanh cong voi admin/123', () => {
     expect(login('admin', '123')).toBe(true);
